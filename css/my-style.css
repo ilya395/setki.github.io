@@ -1,0 +1,86 @@
+/* body style */
+.icon-color {
+ color: #f5b128;	
+}
+
+/* navigation-bar style */
+.navbar{
+ padding: 0rem;
+}
+
+.navbar-overlay {
+ position: relative;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(248, 249, 243, 0.85);
+}
+
+/* header style */
+.jumbotron {
+ background:url('../images/moskitnye-setki-i-ikh-vidy_002.jpg') center center no-repeat;
+ background-size: cover;
+ /* padding: 5rem 2rem; */
+ margin: 0rem;
+ padding: 0rem;
+ height: 100%;
+ width: 100%;
+ background-size: cover;
+}
+.overlay{
+ position: relative;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(0, 0, 0, 0);
+}
+.main-title {
+ padding-top: 13rem;
+ padding-bottom: 8rem;
+}
+
+/* product-bar */
+.product-bar__background {
+ background: #f7f1ee;	
+}
+
+/* offer-bar style */
+.offer-bar__img {
+ height: 73px;
+ width: 73px; 
+}
+
+
+
+/* action-bar style */
+.action-bar {
+ background:url('../images/160205-zika-aedes-aegypti-mosquito-1033a_cf4c0f3070a52d36f9759000ba18cff6.nbcnews-fp-1200-630.jpg') center center no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ margin: 0rem;
+ padding: 0rem;
+ height: 100%;
+ width: 100%;
+}
+.action-bar-overlay {
+ position: relative;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(248, 249, 243, 0.85);
+}
+.action-bar__title {
+ padding-top: 9rem;
+ padding-bottom: 9rem;
+}
+
+/* contact-bar style */
+ul.contact-bar__soc-list>li {
+ display: inline-block;
+ list-style: none;
+ width: 22%;
+ color: #f5b128;
+}
