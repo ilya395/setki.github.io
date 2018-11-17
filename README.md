@@ -1,1 +1,0 @@
-# setki.github.io
