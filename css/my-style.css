@@ -6,6 +6,7 @@
 /* navigation-bar style */
 .navbar{
  padding: 0rem;
+ flex-basis: 100%;
 }
 
 .navbar-overlay {
@@ -15,6 +16,15 @@
  left: 0;
  top: 0;
  background: rgba(248, 249, 243, 0.85);
+}
+
+a {
+	text-decoration: none;
+	color: #f5b128;
+}
+a:hover {
+	text-decoration: none;
+	color: #f5b128;
 }
 
 /* header style */
@@ -84,3 +94,59 @@ ul.contact-bar__soc-list>li {
  width: 22%;
  color: #f5b128;
 }
+ul.contact-bar__soc-list>li a {
+	color: #f5b128;
+}
+
+/* solution-bar style */
+
+/* contacts-bar style */
+
+
+/*
+ * @media
+ */ 
+@media (max-width: 576px) {
+	.top-toggler-menu {
+		order: 1;
+	}
+	.contacts-cos {
+		text-align: center;	
+	}	
+}
+
+@media (min-width: 576px) {
+	.top-toggler-menu {
+		order: 1;
+	}
+	.contacts-cos {
+		text-align: center;	
+	}
+}
+
+@media (min-width: 768px) {
+	.top-toggler-menu {
+		order: 1;
+	}
+	.contacts-cos {
+		text-align: center;	
+	}	
+}
+
+@media (min-width: 992px) {
+	.top-toggler-menu {
+		order: 0;
+	}
+	.contacts-cos {
+		text-align: center;	
+	}	
+}
+
+@media (min-width: 1200px) {
+	.top-toggler-menu {
+		order: 0;
+	}
+	.contacts-cos {
+		text-align: right;
+	}	
+} 
